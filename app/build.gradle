@@ -5,7 +5,7 @@ android {
     buildToolsVersion = '26.0.3'
     defaultConfig {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
-        applicationId = 'com.loafwallet'
+        applicationId = 'com.moonwallet'
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 175
@@ -46,9 +46,9 @@ android {
     flavorDimensions "mode"
     productFlavors {
         loaf {
-            applicationId "com.loafwallet"
+            applicationId "com.moonwallet"
             dimension "mode"
-            resValue "string", "app_name", "LoafWallet"
+            resValue "string", "app_name", "MoonWallet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
 
             externalNativeBuild {
@@ -63,9 +63,9 @@ android {
         }
 
         loafTestnet {
-            applicationId "com.loafwallet.testnet"
+            applicationId "com.moonwallet.testnet"
             dimension "mode"
-            resValue "string", "app_name", "LoafWallet-testnet"
+            resValue "string", "app_name", "MoonWallet-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
 
             externalNativeBuild {

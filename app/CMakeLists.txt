@@ -27,39 +27,39 @@ add_library( # Specifies the name of the library.
              SHARED
 
              # Provides a relative path to your source file(s).
-             src/main/jni/loafwallet-core/BRAddress.c
-             src/main/jni/loafwallet-core/BRAddress.h
-             src/main/jni/loafwallet-core/BRArray.h
-             src/main/jni/loafwallet-core/BRBase58.c
-             src/main/jni/loafwallet-core/BRBase58.h
-             src/main/jni/loafwallet-core/BRBIP32Sequence.c
-             src/main/jni/loafwallet-core/BRBIP32Sequence.h
-             src/main/jni/loafwallet-core/BRBIP38Key.c
-             src/main/jni/loafwallet-core/BRBIP38Key.h
-             src/main/jni/loafwallet-core/BRBIP39Mnemonic.c
-             src/main/jni/loafwallet-core/BRBIP39Mnemonic.h
-             src/main/jni/loafwallet-core/BRBIP39WordsEn.h
-             src/main/jni/loafwallet-core/BRBloomFilter.c
-             src/main/jni/loafwallet-core/BRBloomFilter.h
-             src/main/jni/loafwallet-core/BRCrypto.c
-             src/main/jni/loafwallet-core/BRCrypto.h
-             src/main/jni/loafwallet-core/BRInt.h
-             src/main/jni/loafwallet-core/BRKey.c
-             src/main/jni/loafwallet-core/BRKey.h
-             src/main/jni/loafwallet-core/BRMerkleBlock.c
-             src/main/jni/loafwallet-core/BRMerkleBlock.h
-             src/main/jni/loafwallet-core/BRPaymentProtocol.c
-             src/main/jni/loafwallet-core/BRPaymentProtocol.h
-             src/main/jni/loafwallet-core/BRPeer.c
-             src/main/jni/loafwallet-core/BRPeer.h
-             src/main/jni/loafwallet-core/BRPeerManager.c
-             src/main/jni/loafwallet-core/BRPeerManager.h
-             src/main/jni/loafwallet-core/BRSet.c
-             src/main/jni/loafwallet-core/BRSet.h
-             src/main/jni/loafwallet-core/BRTransaction.c
-             src/main/jni/loafwallet-core/BRTransaction.h
-             src/main/jni/loafwallet-core/BRWallet.c
-             src/main/jni/loafwallet-core/BRWallet.h
+             src/main/jni/moonwallet-core/BRAddress.c
+             src/main/jni/moonwallet-core/BRAddress.h
+             src/main/jni/moonwallet-core/BRArray.h
+             src/main/jni/moonwallet-core/BRBase58.c
+             src/main/jni/moonwallet-core/BRBase58.h
+             src/main/jni/moonwallet-core/BRBIP32Sequence.c
+             src/main/jni/moonwallet-core/BRBIP32Sequence.h
+             src/main/jni/moonwallet-core/BRBIP38Key.c
+             src/main/jni/moonwallet-core/BRBIP38Key.h
+             src/main/jni/moonwallet-core/BRBIP39Mnemonic.c
+             src/main/jni/moonwallet-core/BRBIP39Mnemonic.h
+             src/main/jni/moonwallet-core/BRBIP39WordsEn.h
+             src/main/jni/moonwallet-core/BRBloomFilter.c
+             src/main/jni/moonwallet-core/BRBloomFilter.h
+             src/main/jni/moonwallet-core/BRCrypto.c
+             src/main/jni/moonwallet-core/BRCrypto.h
+             src/main/jni/moonwallet-core/BRInt.h
+             src/main/jni/moonwallet-core/BRKey.c
+             src/main/jni/moonwallet-core/BRKey.h
+             src/main/jni/moonwallet-core/BRMerkleBlock.c
+             src/main/jni/moonwallet-core/BRMerkleBlock.h
+             src/main/jni/moonwallet-core/BRPaymentProtocol.c
+             src/main/jni/moonwallet-core/BRPaymentProtocol.h
+             src/main/jni/moonwallet-core/BRPeer.c
+             src/main/jni/moonwallet-core/BRPeer.h
+             src/main/jni/moonwallet-core/BRPeerManager.c
+             src/main/jni/moonwallet-core/BRPeerManager.h
+             src/main/jni/moonwallet-core/BRSet.c
+             src/main/jni/moonwallet-core/BRSet.h
+             src/main/jni/moonwallet-core/BRTransaction.c
+             src/main/jni/moonwallet-core/BRTransaction.h
+             src/main/jni/moonwallet-core/BRWallet.c
+             src/main/jni/moonwallet-core/BRWallet.h
 
              src/main/jni/transition/core.c
              src/main/jni/transition/core.h
@@ -75,7 +75,7 @@ add_library( # Specifies the name of the library.
              src/main/jni/transition/wallet.h)
 
 
-include_directories(src/main/jni/loafwallet-core/)
+include_directories(src/main/jni/moonwallet-core/)
 include_directories(src/main/secp/secp256k1/include/)
 include_directories(src/main/secp/secp256k1/src/)
 include_directories(src/main/secp/secp256k1/)
