@@ -32,7 +32,7 @@
     <!-- Permission required -->
     <string name="Permissions.title.Android">Permission Required</string>
     <!-- Instructions how to allow the camera access for the app -->
-    <string name="Permissions.body.Android">Allow camera access in \"Settings\" > \"Apps\" > \"loafwallet\" > \"Permissions\"</string>
+    <string name="Permissions.body.Android">Allow camera access in \"Settings\" > \"Apps\" > \"moonwallet\" > \"Permissions\"</string>
     <!-- Switch button from fingerprint to PIN insert -->
     <string name="Pin.title.Android">PIN</string>
     <!-- Fingerprint was recognized by the scanner -->
